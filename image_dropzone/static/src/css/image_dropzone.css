@@ -1,0 +1,37 @@
+.o_field_image_dropzone .o_dropzone_empty {
+    cursor: pointer;
+    border: 2px dashed #adb5bd;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    transition: all 0.2s ease;
+}
+
+.o_field_image_dropzone .o_dropzone_empty:hover {
+    border-color: #714B67;
+    background: rgba(113, 75, 103, 0.04);
+}
+
+.o_field_image_dropzone .o_dropzone_icon {
+    color: #714B67;
+}
+
+.o_field_image_dropzone .o_dropzone_title {
+    color: #714B67;
+}
+
+.o_field_image_dropzone.o_dragging .o_dropzone_empty {
+    border-color: #714B67 !important;
+    background-color: rgba(113, 75, 103, 0.08) !important;
+    outline: 3px dashed #714B67;
+    outline-offset: -3px;
+}
+
+.o_field_image_dropzone.o_dragging > .position-relative {
+    outline: 3px dashed #714B67;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
