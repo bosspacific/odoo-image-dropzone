@@ -1,0 +1,134 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a1033"/>
+<stop offset="50%" stop-color="#2d1b4e"/>
+<stop offset="100%" stop-color="#1a2744"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#8B6BB9"/>
+<stop offset="100%" stop-color="#6B4E9B"/>
+</linearGradient>
+<linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#A78BDA" stop-opacity="0.15"/>
+<stop offset="100%" stop-color="#A78BDA" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="card-bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+</linearGradient>
+</defs>
+
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect x="0" y="540" width="1200" height="60" fill="#0d0a1a" opacity="0.5"/>
+
+<g opacity="0.06">
+<line x1="0" y1="0" x2="1200" y2="600" stroke="#fff" stroke-width="0.5"/>
+<line x1="200" y1="0" x2="1200" y2="500" stroke="#fff" stroke-width="0.5"/>
+<line x1="400" y1="0" x2="1200" y2="400" stroke="#fff" stroke-width="0.5"/>
+<line x1="0" y1="100" x2="1100" y2="600" stroke="#fff" stroke-width="0.5"/>
+<line x1="0" y1="200" x2="1000" y2="600" stroke="#fff" stroke-width="0.5"/>
+<line x1="0" y1="300" x2="900" y2="600" stroke="#fff" stroke-width="0.5"/>
+</g>
+
+<!-- Left side: Title and features -->
+<g transform="translate(80, 80)">
+<text x="0" y="0" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#E8E0F4" letter-spacing="-1">Image Drag &amp; Drop</text>
+<text x="0" y="62" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#E8E0F4" letter-spacing="-1">Widget</text>
+<text x="0" y="110" font-family="sans-serif" font-size="18" fill="#A89BC2" letter-spacing="0.5">Native drag-and-drop image upload for Odoo 19</text>
+
+<rect x="0" y="140" width="100" height="32" rx="6" fill="url(#accent)"/>
+<text x="50" y="161" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#fff">v 19.0</text>
+
+<rect x="116" y="140" width="80" height="32" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+<text x="156" y="161" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#C4B5DA">LGPL-3</text>
+
+<rect x="212" y="140" width="64" height="32" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+<text x="244" y="161" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#C4B5DA">Free</text>
+</g>
+
+<!-- Right side: Mock UI -->
+<g transform="translate(600, 60)">
+<rect x="0" y="0" width="520" height="420" rx="16" fill="url(#card-bg)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+<!-- Title bar -->
+<rect x="0" y="0" width="520" height="48" rx="16" fill="rgba(255,255,255,0.05)"/>
+<rect x="0" y="32" width="520" height="16" fill="rgba(255,255,255,0.05)"/>
+<circle cx="24" cy="24" r="6" fill="#ff5f57"/>
+<circle cx="44" cy="24" r="6" fill="#febc2e"/>
+<circle cx="64" cy="24" r="6" fill="#28c840"/>
+<text x="260" y="28" text-anchor="middle" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">Product Form — Odoo 19</text>
+
+<!-- Form fields -->
+<rect x="30" y="70" width="160" height="24" rx="4" fill="rgba(255,255,255,0.06)"/>
+<text x="40" y="86" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Product Name</text>
+
+<rect x="30" y="104" width="250" height="24" rx="4" fill="rgba(255,255,255,0.06)"/>
+<text x="40" y="120" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Description</text>
+
+<!-- Dropzone -->
+<rect x="310" y="70" width="180" height="230" rx="12" fill="rgba(139,107,185,0.12)" stroke="#8B6BB9" stroke-width="1.5" stroke-dasharray="8 4"/>
+<rect x="310" y="70" width="180" height="230" rx="12" fill="url(#glow)"/>
+
+<!-- Upload icon -->
+<g transform="translate(400, 145)" opacity="0.7">
+<path d="M0 30L0 10Q0 0 10 0L30 0Q40 0 40 10L40 30" fill="none" stroke="#A78BDA" stroke-width="2" stroke-linecap="round"/>
+<path d="M8 30L-4 30Q-6 30 -6 32L-6 40Q-6 42 -4 42L44 42Q46 42 46 40L46 32Q46 30 44 30L32 30" fill="none" stroke="#A78BDA" stroke-width="2" stroke-linecap="round"/>
+<line x1="20" y1="16" x2="20" y2="32" stroke="#A78BDA" stroke-width="2" stroke-linecap="round"/>
+<path d="M12 24L20 16L28 24" fill="none" stroke="#A78BDA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<text x="400" y="215" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="500" fill="#C4B5DA">Drop image here</text>
+<text x="400" y="235" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">or click to browse</text>
+
+<!-- Product thumbnails -->
+<g transform="translate(50, 150)">
+<rect x="0" y="0" width="90" height="80" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+<rect x="10" y="10" width="70" height="40" rx="4" fill="rgba(139,107,185,0.15)"/>
+<rect x="10" y="56" width="50" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
+<rect x="10" y="66" width="30" height="6" rx="3" fill="rgba(255,255,255,0.05)"/>
+</g>
+<g transform="translate(155, 150)">
+<rect x="0" y="0" width="90" height="80" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+<rect x="10" y="10" width="70" height="40" rx="4" fill="rgba(107,139,185,0.15)"/>
+<rect x="10" y="56" width="50" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
+<rect x="10" y="66" width="30" height="6" rx="3" fill="rgba(255,255,255,0.05)"/>
+</g>
+
+<!-- Bottom bar -->
+<rect x="30" y="340" width="460" height="52" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+<rect x="50" y="352" width="120" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="50" y="366" width="200" height="6" rx="3" fill="rgba(255,255,255,0.04)"/>
+<rect x="420" y="352" width="50" height="24" rx="6" fill="rgba(139,107,185,0.15)"/>
+<text x="445" y="368" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#A78BDA">Save</text>
+</g>
+
+<!-- Feature checklist -->
+<g transform="translate(80, 370)">
+<g transform="translate(0,0)">
+<circle cx="10" cy="10" r="10" fill="rgba(40,200,64,0.15)" stroke="#28c840" stroke-width="1"/>
+<path d="M5 10L9 14L16 6" fill="none" stroke="#28c840" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="14" font-family="sans-serif" font-size="14" fill="#C4B5DA">Works on any Binary or Image field</text>
+</g>
+<g transform="translate(0,36)">
+<circle cx="10" cy="10" r="10" fill="rgba(40,200,64,0.15)" stroke="#28c840" stroke-width="1"/>
+<path d="M5 10L9 14L16 6" fill="none" stroke="#28c840" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="14" font-family="sans-serif" font-size="14" fill="#C4B5DA">Visual feedback with dashed dropzone</text>
+</g>
+<g transform="translate(0,72)">
+<circle cx="10" cy="10" r="10" fill="rgba(40,200,64,0.15)" stroke="#28c840" stroke-width="1"/>
+<path d="M5 10L9 14L16 6" fill="none" stroke="#28c840" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="14" font-family="sans-serif" font-size="14" fill="#C4B5DA">Zero configuration — install and go</text>
+</g>
+<g transform="translate(0,108)">
+<circle cx="10" cy="10" r="10" fill="rgba(40,200,64,0.15)" stroke="#28c840" stroke-width="1"/>
+<path d="M5 10L9 14L16 6" fill="none" stroke="#28c840" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="14" font-family="sans-serif" font-size="14" fill="#C4B5DA">Community &amp; Enterprise compatible</text>
+</g>
+</g>
+
+<!-- Footer -->
+<text x="80" y="572" font-family="sans-serif" font-size="14" fill="rgba(255,255,255,0.4)">bosspacific.com.au &#x2014; Australian IT solutions</text>
+<text x="1120" y="572" text-anchor="end" font-family="Georgia, serif" font-size="16" font-weight="700" fill="rgba(255,255,255,0.3)" letter-spacing="1">BOSS PACIFIC</text>
+
+</svg>

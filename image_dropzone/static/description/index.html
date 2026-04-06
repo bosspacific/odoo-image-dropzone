@@ -1,97 +1,186 @@
 <section class="oe_container">
     <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color: #714B67;">Image Drag &amp; Drop Widget</h2>
-        <h3 class="oe_slogan">Modern drag-and-drop image upload for any Odoo field</h3>
+        <div class="oe_span12" style="text-align: center;">
+            <h2 class="oe_slogan" style="color: #714B67; font-size: 36px; font-weight: 700;">
+                Image Drag &amp; Drop Widget
+            </h2>
+            <h3 class="oe_slogan" style="color: #999; font-size: 18px; font-weight: 400; margin-top: -10px;">
+                Native drag-and-drop image upload for Odoo 19
+            </h3>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12" style="text-align: center;">
+            <img src="banner.png" alt="Image Drag &amp; Drop Widget banner"
+                 style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        </div>
+    </div>
+</section>
+
+<section class="oe_container" style="margin-top: 30px;">
+    <div class="oe_row oe_spaced">
         <div class="oe_span12">
-            <p class="oe_mt32">
-                Replace the default image upload experience with a beautiful, intuitive drag-and-drop zone.
-                Works on <strong>any Binary or Image field</strong> in <strong>any model</strong> — products,
-                contacts, projects, custom modules, anywhere.
+            <h3 style="color: #714B67; border-bottom: 2px solid #714B67; padding-bottom: 8px; font-size: 22px;">
+                Overview
+            </h3>
+            <p style="font-size: 15px; line-height: 1.7; color: #555;">
+                The <strong>Image Drag &amp; Drop Widget</strong> extends Odoo's native image field with a
+                modern drag-and-drop upload experience. Simply drag an image file from your desktop onto the
+                dropzone area and the image is uploaded instantly &#8212; no file browser dialog needed.
+            </p>
+            <p style="font-size: 15px; line-height: 1.7; color: #555;">
+                Built with Odoo 19's OWL framework, this widget replaces the standard image field with a
+                clean, visual dropzone that provides clear feedback during the upload process. It works
+                seamlessly with any model that has a Binary or Image field.
             </p>
         </div>
     </div>
 </section>
 
-<section class="oe_container oe_dark">
+<section class="oe_container" style="margin-top: 30px;">
     <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color: #714B67;">Features</h2>
-        <div class="oe_span4">
-            <div class="text-center">
-                <i class="fa fa-cloud-upload fa-3x" style="color: #714B67;"></i>
-                <h3>Drag &amp; Drop</h3>
-                <p>Drop image files directly onto the field. Visual feedback with Odoo-purple highlight on drag hover.</p>
-            </div>
-        </div>
-        <div class="oe_span4">
-            <div class="text-center">
-                <i class="fa fa-mouse-pointer fa-3x" style="color: #714B67;"></i>
-                <h3>Click to Browse</h3>
-                <p>Click the drop zone or existing image to open a file picker. Standard image file types accepted.</p>
-            </div>
-        </div>
-        <div class="oe_span4">
-            <div class="text-center">
-                <i class="fa fa-image fa-3x" style="color: #714B67;"></i>
-                <h3>Smart Preview</h3>
-                <p>Shows current image with replacement overlay. Empty state displays an inviting upload zone.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color: #714B67;">Usage</h2>
         <div class="oe_span12">
-            <p>Add the widget to any Binary or Image field in your XML view:</p>
-            <pre style="background: #f5f5f5; padding: 15px; border-radius: 4px; font-size: 14px;">
-&lt;field name="image_1920" widget="image_dropzone"/&gt;</pre>
-            <p class="oe_mt16">Force the empty drop zone to always show (useful beside a preview):</p>
-            <pre style="background: #f5f5f5; padding: 15px; border-radius: 4px; font-size: 14px;">
-&lt;field name="image_1920" widget="image_dropzone"
-       options='{"always_dropzone": true}'/&gt;</pre>
+            <h3 style="color: #714B67; border-bottom: 2px solid #714B67; padding-bottom: 8px; font-size: 22px;">
+                Key Features
+            </h3>
         </div>
     </div>
-</section>
-
-<section class="oe_container oe_dark">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color: #714B67;">Two Display Modes</h2>
+    <div class="oe_row oe_spaced" style="margin-top: 15px;">
         <div class="oe_span6">
-            <h3>Empty State</h3>
-            <p>Dashed border with cloud upload icon and clear call-to-action text.
-               Hover highlights the border in Odoo purple.</p>
+            <div style="background: #f8f5fc; border-radius: 10px; padding: 20px; margin-bottom: 15px; border-left: 4px solid #714B67;">
+                <h4 style="color: #714B67; margin: 0 0 8px 0; font-size: 16px;">&#x1F5BC; Drag &amp; Drop Upload</h4>
+                <p style="margin: 0; color: #666; font-size: 14px; line-height: 1.5;">
+                    Drag image files directly from your file manager onto the dropzone.
+                    Supports PNG, JPG, GIF, WebP and SVG formats.
+                </p>
+            </div>
         </div>
         <div class="oe_span6">
-            <h3>Image Loaded</h3>
-            <p>Shows the current image with a semi-transparent overlay bar at the bottom:
-               &ldquo;Click image or drag new image to replace&rdquo;.
-               Drag hover outlines the image in purple.</p>
+            <div style="background: #f8f5fc; border-radius: 10px; padding: 20px; margin-bottom: 15px; border-left: 4px solid #714B67;">
+                <h4 style="color: #714B67; margin: 0 0 8px 0; font-size: 16px;">&#x2728; Visual Feedback</h4>
+                <p style="margin: 0; color: #666; font-size: 14px; line-height: 1.5;">
+                    Clear dashed-border dropzone with hover highlighting. Users always know
+                    exactly where to drop their images.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced">
+        <div class="oe_span6">
+            <div style="background: #f8f5fc; border-radius: 10px; padding: 20px; margin-bottom: 15px; border-left: 4px solid #714B67;">
+                <h4 style="color: #714B67; margin: 0 0 8px 0; font-size: 16px;">&#x26A1; Zero Configuration</h4>
+                <p style="margin: 0; color: #666; font-size: 14px; line-height: 1.5;">
+                    Install and it works immediately. No settings page, no configuration wizard.
+                    Just install the module and start dragging images.
+                </p>
+            </div>
+        </div>
+        <div class="oe_span6">
+            <div style="background: #f8f5fc; border-radius: 10px; padding: 20px; margin-bottom: 15px; border-left: 4px solid #714B67;">
+                <h4 style="color: #714B67; margin: 0 0 8px 0; font-size: 16px;">&#x1F517; Universal Compatibility</h4>
+                <p style="margin: 0; color: #666; font-size: 14px; line-height: 1.5;">
+                    Works with Odoo Community and Enterprise editions.
+                    Compatible with Odoo Online, Odoo.sh, and On-Premise deployments.
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="oe_container">
+<section class="oe_container" style="margin-top: 30px;">
     <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color: #714B67;">Technical Details</h2>
         <div class="oe_span12">
-            <ul>
-                <li><strong>Widget name:</strong> <code>image_dropzone</code></li>
-                <li><strong>Supported field types:</strong> Binary, Image</li>
-                <li><strong>Dependencies:</strong> web (only)</li>
-                <li><strong>License:</strong> LGPL-3</li>
-                <li><strong>Odoo version:</strong> 19.0</li>
-                <li><strong>OWL component:</strong> Pure client-side, no server-side models</li>
-            </ul>
+            <h3 style="color: #714B67; border-bottom: 2px solid #714B67; padding-bottom: 8px; font-size: 22px;">
+                How to Use
+            </h3>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced" style="margin-top: 15px;">
+        <div class="oe_span4" style="text-align: center;">
+            <div style="background: #714B67; color: #fff; width: 48px; height: 48px; border-radius: 50%; line-height: 48px; font-size: 22px; font-weight: 700; margin: 0 auto 12px;">1</div>
+            <h4 style="color: #714B67;">Install the Module</h4>
+            <p style="color: #666; font-size: 14px;">
+                Download from the Odoo App Store and install via the Apps menu.
+            </p>
+        </div>
+        <div class="oe_span4" style="text-align: center;">
+            <div style="background: #714B67; color: #fff; width: 48px; height: 48px; border-radius: 50%; line-height: 48px; font-size: 22px; font-weight: 700; margin: 0 auto 12px;">2</div>
+            <h4 style="color: #714B67;">Use the Widget in XML</h4>
+            <p style="color: #666; font-size: 14px;">
+                Add <code style="background: #f0e8f5; padding: 2px 6px; border-radius: 4px;">widget="image_dropzone"</code> to any image field in your form view.
+            </p>
+        </div>
+        <div class="oe_span4" style="text-align: center;">
+            <div style="background: #714B67; color: #fff; width: 48px; height: 48px; border-radius: 50%; line-height: 48px; font-size: 22px; font-weight: 700; margin: 0 auto 12px;">3</div>
+            <h4 style="color: #714B67;">Drag &amp; Drop!</h4>
+            <p style="color: #666; font-size: 14px;">
+                Open any form with the widget and drag images directly onto the dropzone area.
+            </p>
         </div>
     </div>
 </section>
 
-<section class="oe_container oe_dark">
+<section class="oe_container" style="margin-top: 30px;">
     <div class="oe_row oe_spaced">
-        <div class="oe_span12 text-center">
-            <h2 class="oe_slogan" style="color: #714B67;">Built by BOSS Pacific Information Systems</h2>
-            <p><a href="https://bosspacific.com.au">bosspacific.com.au</a> — Australian IT solutions</p>
+        <div class="oe_span12">
+            <h3 style="color: #714B67; border-bottom: 2px solid #714B67; padding-bottom: 8px; font-size: 22px;">
+                Usage Example
+            </h3>
+            <pre style="background: #2d1b4e; color: #e8e0f4; padding: 20px; border-radius: 10px; font-size: 14px; line-height: 1.6; overflow-x: auto;"><code>&lt;field name="image_1920" widget="image_dropzone"
+       options="{'size': [256, 256]}"/&gt;</code></pre>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container" style="margin-top: 30px;">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h3 style="color: #714B67; border-bottom: 2px solid #714B67; padding-bottom: 8px; font-size: 22px;">
+                Technical Details
+            </h3>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 12px;">
+                <tr style="border-bottom: 1px solid #eee;">
+                    <td style="padding: 10px 12px; font-weight: 600; color: #714B67; width: 200px;">Technical Name</td>
+                    <td style="padding: 10px 12px; color: #555;"><code style="background: #f0e8f5; padding: 2px 8px; border-radius: 4px;">image_dropzone</code></td>
+                </tr>
+                <tr style="border-bottom: 1px solid #eee;">
+                    <td style="padding: 10px 12px; font-weight: 600; color: #714B67;">Version</td>
+                    <td style="padding: 10px 12px; color: #555;">19.0.1.0.0</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #eee;">
+                    <td style="padding: 10px 12px; font-weight: 600; color: #714B67;">License</td>
+                    <td style="padding: 10px 12px; color: #555;">LGPL-3</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #eee;">
+                    <td style="padding: 10px 12px; font-weight: 600; color: #714B67;">Dependencies</td>
+                    <td style="padding: 10px 12px; color: #555;">web</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #eee;">
+                    <td style="padding: 10px 12px; font-weight: 600; color: #714B67;">Odoo Editions</td>
+                    <td style="padding: 10px 12px; color: #555;">Community &#x2714; &nbsp; Enterprise &#x2714;</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px 12px; font-weight: 600; color: #714B67;">Author</td>
+                    <td style="padding: 10px 12px; color: #555;">BOSS Pacific Information Systems</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container" style="margin-top: 40px; margin-bottom: 20px;">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12" style="text-align: center;">
+            <h3 style="color: #714B67; font-size: 24px; font-weight: 700;">
+                Built by BOSS Pacific Information Systems
+            </h3>
+            <p style="color: #888; font-size: 15px; margin-top: 4px;">
+                <a href="https://bosspacific.com.au" style="color: #714B67; text-decoration: none;">bosspacific.com.au</a>
+                &#8212; Australian IT solutions
+            </p>
         </div>
     </div>
 </section>
